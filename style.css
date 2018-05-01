@@ -1,0 +1,60 @@
+h1 {
+    color: rgb(255, 0, 212);
+    margin:0 auto;
+    width: 40%;
+    padding: 20px;}
+h2 {
+    color: rgb(255, 0, 212);
+    margin:0 auto;
+    width: 40%;
+    padding: 10px;}
+body {
+    background-image: rgb(227, 204, 235);
+    background-size: cover;
+    margin: 100px;
+    padding: 0;
+    font-size: 14px;
+}
+form[name="log-in"] {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.log-in_id{
+    display: flex;
+    justify-content: space-around;
+}
+.ref-link{
+    margin-left: 100px;
+}
+#button-value {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+
+#button-value > button {
+    margin-right: 1em;
+}
+
+#button-value > button :last-child {
+    margin-right: 0em;
+}
+.features {
+    color: rgb(255, 0, 212);
+    margin:0 auto;
+    width: 100%;
+    padding: 40px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+img.large {
+    width: 500px;
+    height: 500px;}
+img.medium {
+    width: 250px;
+    height: 250px;}
+img.small {
+    width: 100px;
+    height: 100px;}

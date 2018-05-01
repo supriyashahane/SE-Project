@@ -1,0 +1,90 @@
+body {
+   
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    font-family: Verdana;
+    font-size: 20;
+    margin: 0;
+    line-height: 24px;
+}
+
+.bar{
+    text-align: center;
+    width: 100%;
+    background: blue;
+    opacity: 0.3;
+}
+.bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.bar ul li a{
+    display: block;
+    padding: 25px;
+    color: wheat;
+    text-decoration: none;
+    width:150px;
+}
+
+.bar ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.bar ul li {
+    float: left;
+    list-style: none;
+}
+.bar ul ul{
+    display: none;
+}
+.bar ul li:hover > ul {
+    display: block;
+}
+.bar ul li:hover{
+    background:blue;
+    transition: 0.9s;
+}
+.bar ul li:hover a{
+    color: wheat;
+}
+.bar ul ul {
+    background: blue;
+    padding: 0;
+    margin: 0;
+    position: absolute; top:100%;
+}
+.bar ul ul li {
+    float: none;
+    position: relative;
+}
+.bar ul ul li a{
+    padding: 25px;
+    color: white;
+    width:300px;
+    text-align: left;
+}
+.bar ul ul li a:hover {
+    background: lightblue;
+    color: black;
+    transition: 0.9s;
+}
+h1 {
+    color: rgb(97, 14, 90);
+    margin-right: 3000 px;
+    padding: inherit;}
+p {
+    padding: 5px;
+    margin: 0px;}
+
+.features {
+    color: rgb(255, 0, 212);
+    margin:0 auto;
+    width: 100%;
+    padding: 40px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

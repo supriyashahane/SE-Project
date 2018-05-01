@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(29, 25, 28);
+    margin:0 auto;
+    width: 50%;
+    padding: 10px;}
+h2 {
+    color: rgb(29, 25, 28);
+    margin:0 auto;
+    width: 50%;
+    padding: 10px;}
+body {
+    margin:100px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: pink;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+form[name="profile-form"] {
+    border: 1px solid #eee;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: flex-end;   
+    margin-top: 1em; 
+    // px, em, rem, % 
+}
+
+#buttons-container > button {
+    margin-right: 1em;
+}
+
+#buttons-container > button:last-child {
+    margin-right: 0em;
+}

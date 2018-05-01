@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="log-up.css"></link>
+    </head>
+    <body>
+        <h1> Create account on <link><a href="supriya.html">Shopping</a></link></h1>
+        <h2>to connect with Worlds Largest Shopping site</h2>
+        <script src="log-up.js"></script>
+        <form name="profile-form" id="profile-form" action="index.html"
+        onsubmit="return validateForm()" method="post">
+        
+            <div class="form-group">
+                <label>Phone Number</label>
+                <input type="text" name="phone_number" pattern="[789][0-9]{9}" size="10" minlength="10" maxlength="10"/>    
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email" id="email" size="15" maxlength="30"/>
+            </div>
+            <div class="form-group">
+                <label>Create Username</label>
+                <input type="Username" name="Username" id="Username" size="15" minlength = "5" maxlength="10"/>
+            </div>
+            <div class="form-group">
+                <label>Input Password</label>
+                <input type="password" name="password" id="password" size="15" minlength="5" maxlength="8"/>
+            </div>
+            <div class="form-group">
+                <label>Retype Password</label>
+                <input type="password" name="re-password" id="re-password" size="15" minlength="5" maxlength="8"/>
+            </div>
+
+            <div id="buttons-container">
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </div>
+        </form>
+            
+    </body>
+    
+</html>
